@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Click to Play Video</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/233fbb42f4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="video-container">
+    <video id="background-video" loop muted>
+      <source src="background.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="overlay" onclick="playVideo()">
+      <p>[Click Anywhere]</p>
+    </div>
+    <div class="main-area">
+      <div class="card hidden">
+        <div class="avatar">
+            <img src="https://images-ext-2.discordapp.net/external/2dZVVL6feMSM7lxfFkKVW__LToSOzmToSEmocJV5vcA/https/cdn.discordapp.com/embed/avatars/0.png?format=webp&quality=lossless" alt="Avatar">
+        </div>
+        <div class="info">
+          <h1>DRQSuperior</h1>
+          <p>Pornstar, Fortniter, and Minecrafter</p>
+        </div>
+        <div class="socials">
+            <i class="fa-brands fa-discord" onclick="window.location.href='https://discord.gg/4Ua9QYpPEg'"></i>
+            <i class="fa-brands fa-youtube" onclick="window.location.href='https://www.youtube.com/channel/@drqsuperior'"></i>
+            <i class="fa-brands fa-github" onclick="window.location.href='https://github.com/DRQSuperior'"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
